@@ -1,0 +1,146 @@
+
+
+
+.body {
+  font-family: 'georgia', sans-serif;
+  background-color: #fdfaf6;
+  color: #333;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  background-color: #ffffff;
+  box-shadow: 0 1px 4px #0000000d;
+  flex-wrap: wrap;
+}
+
+.logo {
+  font-family: 'Pacifico', cursive;
+  font-size: 2.5rem;
+  color: #a72626;
+}
+
+.acciones {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.5rem;
+}
+
+.acciones input {
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 300px;
+}
+
+.botones {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.boton_top {
+  background-color: #a72626;
+  color: #fffbfb;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.grid-recetas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.receta-card {
+  background: white;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 2px 8px #0e0e0c;
+  padding: 1rem;
+  text-align: center;
+  transition: transform 0.2s ease;
+  max-width: 300px;
+}
+
+.receta-card:hover {
+  transform: scale(1.02);
+}
+
+.receta-card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.8rem;
+  color: #999;
+}
+
+.buscador-centrado {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.buscador-centrado input {
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 300px;
+}
+
+.frase-recetario {
+  text-align: center;
+  font-size: 1.8rem;
+  font-style: italic;
+  color: #7b2e2e;
+  margin-bottom: 1.5rem;
+}
+
+
+
+/*
+.grid-recetas {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.receta-card {
+  background: white;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 2px 8px #0e0e0c;
+  padding: 1rem;
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.receta-card:hover {
+  transform: scale(1.02);
+}
+
+.receta-card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 0.5rem;
+  margin-bottom: 0.5rem;
+}
