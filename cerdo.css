@@ -48,3 +48,37 @@ a {
   font-size: 0.9rem;
   cursor: pointer;
 }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  background-color: #f0E8DB;
+  box-shadow: 0 1px 4px #0000000d;
+  flex-wrap: wrap;
+}
+
+.logo {
+  font-family: 'Pacifico', cursive;
+  font-size: 2.5rem;
+  color: #a72626;
+}
+
+footer {
+  background-color: #F0E8DB;
+  color: #a72626;
+  text-align: center;
+  padding: 15px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+footer a {
+  color: #C64E4E;
+  text-decoration: none;
+  margin: 0 10px;
+}
+footer a:hover {
+  text-decoration: underline;
+}
