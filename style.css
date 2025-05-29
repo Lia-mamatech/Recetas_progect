@@ -111,10 +111,31 @@ footer {
   text-align: center;
   font-size: 1.8rem;
   font-style: italic;
-  color: #7b2e2e;
+  color:#a72626;
   margin-bottom: 1.5rem;
 }
-
+footer {
+  background-color: #F0E8DB;
+  color: #a72626;
+  text-align: center;
+  padding: 15px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+footer a {
+  color: #C64E4E;
+  text-decoration: none;
+  margin: 0 10px;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+.botones {
+  display: flex;
+  justify-content: right;
+  padding-left: 20px;
+}
 
 
 /*

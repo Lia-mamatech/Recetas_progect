@@ -1,0 +1,50 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f0E8DB;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 28px;
+    color: #a72626;
+    text-align: center;
+    margin-top: 20px;
+}
+.receta-completa{
+     background-color: #ffffff;
+     width: 80%;
+     max-width: 900px;
+     margin: 30px auto;
+     padding: 25px;
+     border-radius: 10px;
+     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.receta-completa img {
+     width: 100%;
+     max-width: 400px;
+     display: block;
+     margin: 0 auto 20px;
+     border-radius: 10px;
+}
+a {
+     display: inline-block;
+     margin-top: 30px;
+     text-decoration: none;
+     color: #a72626;
+     font-weight: bold;
+     border: 2px solid #a72626;
+     padding: 8px 12px;
+     border-radius: 6px;
+     transition: background-color 0.3s;
+}
+
+.boton_top {
+  background-color: #a72626;
+  color: #fffbfb;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
