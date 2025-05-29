@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+.form-contenedor{
+    background-color: rgb(250, 250, 250);
+    padding: 30px 40px;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 4px 10px rgb(83, 84, 84);  
+}
+
+.input-grupo{
+    margin-bottom: 20px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    width: 100%;
+    background: transparent;
+    color: #555;
+}
+.input-grupo label{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 15px;
+    padding: 15px;
+    background-color: none;
+}
+.input-grupo input{
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    font-size: 16px;
+    width: 100%;
+    background: transparent;
+    color: #555;
+    padding: 5px 0;
+    transition: border-color 0.3s;   
+}
+.btn-gris {
+  width: auto;
+  padding: 10px;
+  border: none;
+  background-color: #e0dcdc;
+  color: #333;
+  font-size: 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.btn-gris:hover {
+  background-color: #c9c5c5;
+}
+
+.btn-rojo {
+  padding: 10px 25px;
+  background-color: #bb4e5b;
+  color: white;
+  font-size: 15px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  margin: 20px auto 0 auto;
+  display: block; 
+
+}
+
+.btn-rojo:hover {
+  background-color: #a33f4c;
+}
