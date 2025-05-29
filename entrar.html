@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="entrar.css">
+    <title>boton ingreso</title>
+</head>
+<body>
+    <div class="form-contenedor">
+        <form action="/ingresar" method="post">
+            <div class="input-grupo">
+                <label for="nombreusuario"> 👤 Nombre de Usuario</label>
+                <input type="text" id="nombreusuario" name="nombreusuario" required>
+            <div class="input-grupo">
+                <label for="contraseña"> 🔑 Contraseña</label>
+                <input type="password" id="contraseña" name="contraseña" required>
+            </div>
+            <button class="btn-gris">Recordarme</button>
+            <button class="btn-rojo">Entrar</button>
+        </form>
+    </div>
+</body>
+</html>
